@@ -1,4 +1,3 @@
-//enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
     repositories {
@@ -23,4 +22,3 @@ dependencyResolutionManagement {
 }
 
 include(":convention")
-include(":task")

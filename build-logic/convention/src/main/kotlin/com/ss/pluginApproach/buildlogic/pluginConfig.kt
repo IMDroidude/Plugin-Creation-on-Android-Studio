@@ -1,6 +1,7 @@
 package com.ss.pluginApproach.buildlogic
 
 object pluginConfig {
+    //object acts like a singleton object. Single instance is created throught the file.
 
     const val APPLICATION_ID = "com.ss.pluginApproach"
     const val MIN_SDK_VERSION = 24
