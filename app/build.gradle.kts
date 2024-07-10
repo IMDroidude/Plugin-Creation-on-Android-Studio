@@ -2,7 +2,9 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     //id("zindigi.android.application")
+    //calling the plugin
     id("ss.hilt")
+
 
 }
 

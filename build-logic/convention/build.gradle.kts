@@ -19,8 +19,8 @@ tasks.withType<KotlinCompile>().configureEach {
 dependencies {
     implementation(libs.android.gradlePlugin)
     implementation(libs.kotlin.gradlePlugin)
-    implementation(libs.ktlint.gradle)
-    implementation(libs.detekt.gradle)
+    ///implementation(libs.ktlint.gradle)
+    ///implementation(libs.detekt.gradle)
     implementation(files(libs.javaClass.superclass.protectionDomain.codeSource.location))
 }
 

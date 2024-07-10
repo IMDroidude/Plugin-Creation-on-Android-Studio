@@ -4,6 +4,10 @@ import org.gradle.kotlin.dsl.dependencies
 
 class HiltPlugin : Plugin<Project> {
     override fun apply(target: Project) {
+
+//        target.rootProject.apply {
+//
+//        }
         with(target) {
             pluginManager.apply {
                 apply("kotlin-kapt")
